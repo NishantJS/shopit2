@@ -30,14 +30,6 @@
 <body>
 
   <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
-      <p class="font-rale font-size-12 text-black-50 m-0">By Nishant and Pushkar <a href="tel:+91-6283-92-5737">Contact
-          us</a></p>
-      <div class="font-rale font-size-14">
-        <a href="#" class="px-3 border-right border-left text-dark">Login</a>
-        <a href="cart.php" class="px-3 border-right text-dark">Whishlist</a>
-      </div>
-    </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
       <a class="navbar-brand" href="index.php">Shopit.</a>
