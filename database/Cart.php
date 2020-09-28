@@ -89,7 +89,6 @@ class Cart
 
             
             $result = $this->db->con->multi_query($query);
-
             if($result){
                 header("Location: " . $_SERVER['PHP_SELF']);
                 die;
