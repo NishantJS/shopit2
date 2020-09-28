@@ -71,10 +71,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         </div>
         <!-- !cart item -->
         <?php
-                        return $item['item_price'];
+          return $item['item_price'];
                     }, $cart); // closing array_map function
-                endforeach;
-                ?>
+          endforeach;
+        ?>
       </div>
     </div>
     <!--  !shopping cart items   -->
