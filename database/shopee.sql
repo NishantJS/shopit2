@@ -42,8 +42,8 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `register_date`) VALUES
-(1, 'Daily', 'Tuition', '2020-03-28 13:07:17'),
-(2, 'Akshay', 'Kashyap', '2020-03-28 13:07:17');
+(1, 'Nishant', 'Chorge', '2020-10-08 13:07:17'),
+(2, 'N', 'C', '2020-10-09 13:07:17');
 
 CREATE TABLE `wishlist` (
   `cart_id` int(11) NOT NULL,

@@ -1,4 +1,3 @@
-<!-- Owl-carousel -->
 <section id="banner-area">
     <div class="owl-carousel owl-theme">
         <div class="item">
@@ -12,4 +11,3 @@
         </div>
     </div>
 </section>
-<!-- !Owl-carousel -->

@@ -12,7 +12,6 @@
   <div class="container py-5">
     <h4 class="font-rubik font-size-20">Top Sale</h4>
     <hr>
-    <!-- owl carousel -->
     <div class="owl-carousel owl-theme">
       <?php foreach ($product_shuffle as $item) { ?>
       <div class="item py-2">
@@ -51,7 +50,5 @@
       }
       ?>
     </div>
-    <!-- !owl carousel -->
   </div>
 </section>
-<!-- !Top Sale -->

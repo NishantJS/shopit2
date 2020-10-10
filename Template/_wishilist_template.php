@@ -1,4 +1,3 @@
-<!-- Shopping cart section  -->
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['delete-cart-submit'])){
@@ -15,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
   <div class="container-fluid w-75">
     <h5 class="font-baloo font-size-20">Wishlist</h5>
 
-    <!--  shopping cart items   -->
     <div class="row">
       <div class="col-sm-9">
         <?php
@@ -23,7 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     $cart = $product->getProduct($item['item_id']);
                     $subTotal[] = array_map(function ($item){
                         ?>
-        <!-- cart item -->
         <div class="row border-top py-3 mt-3">
           <div class="col-sm-2">
             <img src="<?php echo $item['item_image'] ?? "./assets/products/1.png" ?>" style="height: 120px;" alt="cart1"
@@ -32,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
           <div class="col-sm-8">
             <h5 class="font-baloo font-size-20"><?php echo $item['item_name'] ?? "Unknown"; ?></h5>
             <small>by <?php echo $item['item_brand'] ?? "Brand"; ?></small>
-            <!-- product rating -->
             <div class="d-flex">
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
@@ -58,8 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
             </div>
-            <!-- !product qty -->
-
+            
           </div>
 
           <div class="col-sm-2 text-right">
@@ -69,16 +64,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             </div>
           </div>
         </div>
-        <!-- !cart item -->
         <?php
           return $item['item_price'];
-                    }, $cart); // closing array_map function
+                    }, $cart);
           endforeach;
         ?>
       </div>
     </div>
-    <!--  !shopping cart items   -->
-
-
+    
 </section>
-<!-- !Shopping cart section  -->

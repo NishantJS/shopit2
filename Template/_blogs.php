@@ -1,5 +1,3 @@
-
-<!-- Blogs -->
 <section id="blogs">
     <div class="container py-4">
         <h4 class="font-rubik font-size-20">Latest Blogs</h4>
@@ -33,4 +31,3 @@
         </div>
     </div>
 </section>
-<!-- !Blogs -->

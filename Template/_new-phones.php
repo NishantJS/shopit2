@@ -1,11 +1,8 @@
-<!-- New Phones -->
 <?php
 shuffle($product_shuffle);
 
-// request method post
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if (isset($_POST['new_phones_submit'])){
-        // call method addToCart
         $Cart->addToCart($_POST['user_id'], $_POST['item_id']);
     }
 }
@@ -15,7 +12,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <h4 class="font-rubik font-size-20">New Phones</h4>
     <hr>
 
-    <!-- owl carousel -->
     <div class="owl-carousel owl-theme">
       <?php foreach ($product_shuffle as $item) { ?>
       <div class="item py-2 bg-light">
@@ -49,10 +45,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
           </div>
         </div>
       </div>
-      <?php } // closing foreach function ?>
+      <?php } ?>
     </div>
-    <!-- !owl carousel -->
 
   </div>
 </section>
-<!-- !New Phones -->

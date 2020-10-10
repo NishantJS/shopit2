@@ -39,7 +39,6 @@
         </div>
         <hr class="m-0">
 
-        <!---    product price       -->
         <table class="my-3">
           <tr class="font-rale font-size-14">
             <td>M.R.P:</td>
@@ -55,9 +54,6 @@
             <td><span class="font-size-16 text-danger">&#8377;152.00</span></td>
           </tr>
         </table>
-        <!---    !product price       -->
-
-        <!--    #policy -->
         <div id="policy">
           <div class="d-flex">
             <div class="return text-center mr-5">
@@ -80,20 +76,16 @@
             </div>
           </div>
         </div>
-        <!--    !policy -->
         <hr>
 
-        <!-- order-details -->
         <div id="order-details" class="font-rale d-flex flex-column text-dark">
           <small>Delivery by : Mar 29 - Apr 1</small>
           <small>Sold by <a href="#">Daily Electronics </a>(4.5 out of 5 | 2,132 ratings)</small>
           <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 424201</small>
         </div>
-        <!-- !order-details -->
 
         <div class="row">
           <div class="col-6">
-            <!-- color -->
             <div class="color my-3">
               <div class="d-flex justify-content-between">
                 <h6 class="font-baloo">Color:</h6>
@@ -102,10 +94,8 @@
                 <div class="p-2 color-second-bg rounded-circle"><button class="btn font-size-14"></button></div>
               </div>
             </div>
-            <!-- !color -->
           </div>
           <div class="col-6">
-            <!-- product qty section -->
             <div class="qty d-flex">
               <h6 class="font-baloo">Qty</h6>
               <div class="px-4 d-flex font-rale">
@@ -115,11 +105,9 @@
                 <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
               </div>
             </div>
-            <!-- !product qty section -->
           </div>
         </div>
 
-        <!-- size -->
         <div class="size my-3">
           <h6 class="font-baloo">Size :</h6>
           <div class="d-flex justify-content-between w-75">
@@ -134,8 +122,6 @@
             </div>
           </div>
         </div>
-        <!-- !size -->
-
 
       </div>
 
@@ -154,8 +140,7 @@
     </div>
   </div>
 </section>
-<!--   !product  -->
 <?php
-        endif;
-        endforeach;
+  endif;
+  endforeach;
 ?>

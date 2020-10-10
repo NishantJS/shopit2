@@ -1,14 +1,11 @@
-<!-- Special Price -->
 <?php
     $brand = array_map(function ($pro){ return $pro['item_brand']; }, $product_shuffle);
     $unique = array_unique($brand);
     sort($unique);
     shuffle($product_shuffle);
 
-// request method post
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if (isset($_POST['special_price_submit'])){
-        // call method addToCart
         $Cart->addToCart($_POST['user_id'], $_POST['item_id']);
     }
 }
@@ -67,4 +64,3 @@ $in_cart = $Cart->getCartId($product->getData('cart'));
     </div>
   </div>
 </section>
-<!-- !Special Price -->
